@@ -52,7 +52,7 @@ def get_video_preview(video):
                 .run(capture_stdout=True)
         )
         image = ImagePIL.open(io.BytesIO(out))
-        return get_preview(image)
+        return image_resizer(image, (150, 150))
     except ffmpeg.Error as e:
         print(e.stderr)
 
