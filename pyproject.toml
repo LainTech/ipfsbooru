@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "ipfsbooru"
+version = "0.1.0"
+description = ""
+authors = ["LainTech <lain.technic@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+diff-match-patch = "20200713"
+django = "5.0.4"
+django-crispy-forms = "1.14.0"
+django-markdownify = "0.9.2"
+django-role-permissions = "3.1.1"
+django-simple-history = "3.2.0"
+django-taggit = "5.0.1"
+ffmpeg-python = "0.2.0"
+markdown2 = "2.4.7"
+olefile = "0.46"
+pillow = "10.3.0"
+pytz = "2022.7.1"
+requests = "2.31.0"
+six = "1.16.0"
+django-ninja-jwt = "5.2.6"
+orjson = "3.9.9"
+django-cors-headers = "4.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
